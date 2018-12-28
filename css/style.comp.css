@@ -321,7 +321,8 @@ body {
         padding: 1.25rem 2rem; } }
     @media only screen and (max-width: 27em) {
       .overview__heading {
-        padding: 0.645rem 2rem; } }
+        padding: 0.645rem 2rem;
+        letter-spacing: 0; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -382,6 +383,9 @@ body {
   display: inline-block;
   cursor: pointer;
   transition: all .2s; }
+  @media only screen and (max-width: 37.5em) {
+    .btn-inline {
+      padding-bottom: 1px; } }
   .btn-inline span {
     margin-left: .3rem;
     transition: margin-left .2s; }

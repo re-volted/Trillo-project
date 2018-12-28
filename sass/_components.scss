@@ -305,6 +305,7 @@
 
       @media only screen and (max-width: $bp-smallest) {
          padding: 0.645rem 2rem;
+         letter-spacing: 0;
       }
    }
 
@@ -397,6 +398,10 @@
    display: inline-block;
    cursor: pointer;
    transition: all .2s;
+
+   @media only screen and (max-width: $bp-small) {
+      padding-bottom: 1px;
+   }
 
    & span {
       margin-left: .3rem;
